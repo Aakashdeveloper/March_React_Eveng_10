@@ -76,3 +76,32 @@ Step To install packages
 > open terminal/cmd
 > go inside the folder cd 
 > npm i packagename
+
+
+////////////
+Step to generate react app 
+///////////
+#window
+#One time in new system
+> open cmd as admin
+> npm i -g create-react-app
+
+#Next every time you want new app
+> open cmd
+> go inside folder
+> create-react-app appname
+
+#Mac
+#One time in new system
+> open terminal
+> sudo npm i -g create-react-app
+
+#Next every time you want new app
+> open terminal
+> go inside folder
+> create-react-app appname
+
+
+////////////////////
+> open terminal/cmd
+> npx create-react-app appname
