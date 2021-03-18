@@ -1,9 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Header from './component/Header';
+import Footer from './component/Footer';
 
-function App(){
+const App = () => {
     return(
-        <h1>Say Hi To React</h1>
+        <div>
+            <Header/>
+            <h1>Say Hi To React</h1>
+            <h2>Hi From Nareshit</h2>
+            <h3>Today is last free class</h3>
+            <Footer/>
+        </div>
     )
 }
 

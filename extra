@@ -105,3 +105,37 @@ Step to generate react app
 ////////////////////
 > open terminal/cmd
 > npx create-react-app appname
+
+
+////////////
+functional
+> Dumb Component 
+> Display Purpose
+> It cannot maintain state
+
+class
+> logical components
+> api call, business logical ,Display
+> It can maintain state
+
+hooks
+
+
+function test(a,b){
+    var out = [a,b]
+    return out
+}
+
+test(3,2)
+2
+function test(a,b){
+    return a,b
+}
+
+test("hi","bie")
+"bie"
+function test(a,b){
+    return a,b
+}
+
+test("bie","hi")
