@@ -139,3 +139,21 @@ function test(a,b){
 }
 
 test("bie","hi")
+
+
+
+
+state 
+> state act like a local variable
+> Any data interaction will happen through data
+> state is mutable
+> scope of state will be inside one components
+
+Props
+> help to transfer data between two nested components
+> props are immutable
+
+
+map
+filter
+indexof
