@@ -220,3 +220,16 @@ withRouter
 (get) triptype>       https://developerfunnel.herokuapp.com/booking
 (get) bookingdetails> https://developerfunnel.herokuapp.com/allBooking
 (post)placebooking >  https://developerfunnel.herokuapp.com/placeBook
+
+
+npm i abc@4.4
+
+npm i react-router-dom axios react-tabs
+
+
+var a = 10
+var b = "my age is "+a
+"my age is 10"
+
+var c = `my age is ${a}`
+"my age is 10"
