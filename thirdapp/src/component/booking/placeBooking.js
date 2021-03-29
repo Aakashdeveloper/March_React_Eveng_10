@@ -1,5 +1,7 @@
 import React,{Component} from 'react';
 
+const bookingUrl = "http://localhost:8900/orders";
+
 class PlaceOrder extends Component{
     constructor(props){
         super(props)
@@ -19,6 +21,16 @@ class PlaceOrder extends Component{
 
     handleSubmit=()=>{
         console.log(this.state)
+        fetch(bookingUrl,
+            {
+                method:'POST',
+                headers:{
+                    'Accept':'application/json',
+                    'Content-Type':'application/json'
+                },
+                body:JSON.stringify(this.state)
+            })
+            .then(this.props.history.push('/viewBooking'))
     }
 
     render(){

@@ -1,0 +1,25 @@
+{
+  "orders": [
+    {
+      "id": 40946,
+      "hotel_name": "Hometel Chandigarh",
+      "name": "Bhumika",
+      "phone": "5346456",
+      "cost": "2419"
+    },
+    {
+      "id": 78271,
+      "hotel_name": "DoubleTree by Hilton",
+      "name": "Amit",
+      "phone": "896876876",
+      "cost": "2419"
+    },
+    {
+      "id": 39369,
+      "hotel_name": "Ramada Plaza",
+      "name": "Nippun",
+      "phone": "86775576",
+      "cost": "3455"
+    }
+  ]
+}
