@@ -10,6 +10,7 @@ json-server
 ////////////////////////
 React-JWT(Login Logout)-2
 React-GarphQL-1
+
 Depolyment
 -> MERN
 -> Docker
@@ -18,9 +19,9 @@ Depolyment
 Github
 React_hooks -1
 Basic React Native=1
-React-Redux =1
-React-Redux =1
 
+React-Redux =1
+React-Redux =1
 Testing Jest Enzime
 React-Saga -1
 React-with-typescript-1
