@@ -25,8 +25,8 @@ app.post('/oauth',(req,res) => {
     superagent
     .post('https://github.com/login/oauth/access_token')
     .send({
-        client_id:'930f92e500db2f4d357c',
-        client_secret:'38268ef5029134d21b214bf6972ac30f56351b5b',
+        client_id:'',
+        client_secret:'',
         code:req.body.code
     })
     .set('Accept','application/json')

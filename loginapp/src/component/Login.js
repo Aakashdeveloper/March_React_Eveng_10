@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 
 const registerUrl = "http://localhost:7800/api/auth/login";
 
-class Register extends Component{
+class Login extends Component{
     constructor(props){
         super(props)
 
@@ -72,4 +72,4 @@ class Register extends Component{
 }
 
 
-export default Register
+export default Login
