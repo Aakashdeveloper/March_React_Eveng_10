@@ -8,7 +8,6 @@ React = 3
 Mock API
 json-server
 React-JWT(Login Logout)-2
-////////////////////////
 React-GarphQL-1
 Depolyment
 -> MERN
@@ -16,7 +15,7 @@ Depolyment
 -> heroku
 -> Nginx
 Github
-
+////////////////////////
 React_hooks -1
 Basic React Native=1
 
@@ -265,3 +264,48 @@ https://docs.github.com/en/developers/apps/authorizing-oauth-apps
 
 {graphQl}
 https://www.youtube.com/c/DeveloperFunnel/videos
+
+////////////
+npm run build
+
+//first time new folder
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/reactmarchprod.git
+git push -u origin master
+
+//next all time
+git add .
+git commit -m "first commit"
+git push
+
+docker build . -t appname
+docker run -p 9800:3000 appname
+
+//step to strat Backend
+> json-server --watch db.json --port 8900
+> npm i 
+> npm start
+> localhost:8600/graphql
+
+{
+  product(id: 2) {
+    name,
+    rating_text
+  }
+}
+
+
+
+npm i apollo-boost apollo-graphql graphql graphql-tag react-apollo
+
+////////
+npm i -g create-react-native-app
+create-react-native-app appname
+cd appname
+npm run web
+
+install in mobile(expo-go)
+https://www.apple.com/in/search/expo-go?src=globalnav
+
