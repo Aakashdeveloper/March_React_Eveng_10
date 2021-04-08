@@ -321,7 +321,7 @@ store > save state
 
 npm i react-redux redux redux-logger
 
-npm i react-redux redux react-router-dom redux-logger redux-promise enzyme enzyme-adapter-react-16 react-addons-test-utils react-test-renderer
+npm i react-redux redux react-router-dom redux-logger redux-promise
 npm i enzyme enzyme-adapter-react-16 react-addons-test-utils react-test-renderer
 
 // 14 april
